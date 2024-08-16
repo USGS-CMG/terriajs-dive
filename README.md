@@ -12,7 +12,7 @@ https://gamone.whoi.edu/terriamap/#clean&proxy/_60s/https://raw.githubuserconten
 
 ### Alaska Geology 
 ESRI REST services from ScienceBase:
-https://gamone.whoi.edu/terriamap/#clean&proxy/_60s/https://raw.githubusercontent.com/USGS-CMG/terriajs-dive/master/examples/alaska_geology_layers.json
+https://maps.usgs.gov/map/#https://raw.githubusercontent.com/rsignell/terriajs-dive/master/examples/alaska_geology_layers.json
 
 ### CSW Search 
 CSW Search on the IOOS Catalog for ROMS Ocean Forecast Models and WMS Services:

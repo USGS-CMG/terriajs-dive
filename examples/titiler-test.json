@@ -1,0 +1,30 @@
+{
+  "name": "My COG Layer",
+  "type": "tiled-raster",
+  "url": "https://your-titiler-instance.com/cog/WebMercatorQuad",
+  "id": "my-cog-layer-id",
+  "description": "This is a COG served dynamically by TiTiler.",
+  "parameters": {
+    "url": "https%3A%2F%2Fprod-is-usgs-sb-prod-publish.s3.amazonaws.com%2F5b2859cce4b0592076260e4b%2F2017042FA_ChimneyBluffs_Orthomosaic.tif",
+    "rescale": "0,255"
+  },
+  "options": {
+    "tileUrl": "https://titiler.usgs.gov/cog/WebMercatorQuad/{z}/{x}/{y}.png",
+    "zoomExtent": {
+      "min": 0,
+      "max": 20
+    }
+  },
+  "tileFunctionTemplate": "{{tileUrl}}?url={{parameters.url}}&rescale={{parameters.rescale}}",
+  "attribution": {
+    "text": "Data served by TiTiler",
+    "link": "https://developmentseed.org/titiler/"
+  },
+  "styles": [
+    {
+      "id": "default",
+      "name": "Default",
+      "url": "https://titiler.usgs.gov/cog/WebMercatorQuad/tilejson.json?url=https%3A%2F%2Fprod-is-usgs-sb-prod-publish.s3.amazonaws.com%2F5b2859cce4b0592076260e4b%2F2017042FA_ChimneyBluffs_Orthomosaic.tif"
+    }
+  ]
+}

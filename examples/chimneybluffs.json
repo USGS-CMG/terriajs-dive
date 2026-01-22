@@ -1,3 +1,5 @@
+JSON
+
 {
     "corsDomains": [
         "www.sciencebase.gov",
@@ -17,13 +19,13 @@
         {
           "name": "ChimneyBluffs Orthomosaic",
           "description": "Orthomosaic of Chimney Bluffs created from drone images using a structure-from-motion approach. Data collection and processing details at https://www.sciencebase.gov/catalog/item/5b285dfee4b0592076260e4f.  This dataset uses an on-the-fly Web Map Tile Service [titiler](https://developmentseed.org/titiler/)  that reads directly from COG files on Cloud Object Storage.",
-          "type": "url-template",
+          "type": "url-template-imagery",
           "zoomOnEnable": true,
           "isEnabled": true,
           "isShown": true,
           "opacity": 1.0,
           "rectangle": [   "-76.91616239831058", "43.2856062109744", "-76.9045123565574" ,"43.29195336594327"],
-          "url": "https://titiler.xyz/cog/tiles/{z}/{x}/{y}?url=https%3A%2F%2Fprod-is-usgs-sb-prod-publish.s3.amazonaws.com%2F5b2859cce4b0592076260e4b%2F2017042FA_ChimneyBluffs_Orthomosaic.tif"
+          "url": "https://titiler.usgs.gov/cog/tiles/{z}/{x}/{y}?url=https%3A%2F%2Fprod-is-usgs-sb-prod-publish.s3.amazonaws.com%2F5b2859cce4b0592076260e4b%2F2017042FA_ChimneyBluffs_Orthomosaic.tif"
         }
       ]
     }
